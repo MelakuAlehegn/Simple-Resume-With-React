@@ -21,7 +21,17 @@ ul {
 }
 .container {
   width: 600px;
-  margin: auto;
+  margin: 30px auto;
+  border: 2px solid rgb(1, 169, 175);
+  padding: 12px;
+}
+.container h1 {
+  padding-left: 1.5em;
+  text-align: center;
+  margin: 15px auto;
+  border-bottom: 1px solid rgb(1, 169, 175);
+  padding-bottom: 8px;
+  width: 80%;
 }
 ul {
   list-style-type: none;

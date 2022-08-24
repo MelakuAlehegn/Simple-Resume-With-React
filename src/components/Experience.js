@@ -1,12 +1,16 @@
 import React from "react";
 import '../index.css'
 
-export default function Experience() {
+export default function Experience(props) {
     return(
     <div className="experience">
         <h2>Expereince</h2>
-        <p>I have worked as a computer programmer at NERD Center Ethiopia</p>
-        <p>And Frontend Developer at LSSYA</p>
+        <p>{props.experience1}</p>
+        <p>{props.experience2}</p>
     </div>
     )
+}
+Experience.defaultProps= {
+    experience1: "Computer Engineer at NERD Center Ethiopia",
+    experience2: "Frontend Developer at LSSYA"
 }
